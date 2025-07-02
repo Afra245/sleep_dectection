@@ -21,9 +21,9 @@ while True:
         cls_id = int(box.cls[0])
         label = classes[cls_id]
 
-        if label == 'Awake':
+        if label == 'awake':
             is_sleeping = True
-        if label == 'Sleeping':
+        if label == 'sleep':
             is_sleeping= True
 
     frame_out = results.plot()
