@@ -1,0 +1,1 @@
+This project detects whether a person is sleeping (eyes closed) or awake (eyes open) using a custom-trained YOLOv8 model. It uses Roboflow to generate the dataset and annotation format, and Ultralytics YOLOv8 for training and inference.
